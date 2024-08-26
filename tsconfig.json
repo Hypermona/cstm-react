@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "esModuleInterop":true,
+    "module": "esnext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "strict": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "allowUmdGlobalAccess": true,
+  },
+  "include": [
+        "src/**/*",
+        "index.tsx"
+    ],
+  "exclude": [
+    "node_modules"
+  ]
+}
